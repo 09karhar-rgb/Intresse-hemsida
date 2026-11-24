@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+}
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+
+
+.innehall {
+  display: flex;           
+  align-items: flex-start;  
+  gap: 30px;                
+  padding: 20px;
+}
+
+.text-vanster {
+  flex: 1;                  
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+div.bilder {
+  flex: 2;                  
+  display: flex;
+  flex-wrap: wrap;         
+  gap: 15px;
+}
+
+div.bilder-grejer {
+  border: 1px solid #ccc;
+  width: 180px;
+  background-color: white;
+}
+
+div.bilder-grejer:hover {
+  border: 1px solid #777;
+}
+
+div.bilder-grejer img {
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+div.bilder-grejer div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+
+p { 
+	font-style: Times New Roman;
+	color: blue;
+	text-decoration-line: underline;
+}
+
+div.bok {
+  width: 100%;
+  height:auto;
+  display: inline;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-itemBok {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-itemBok:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-itemBok img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-itemBok div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font: arial;
+	color: white;
+}
+
+#VarförBok {
+	text-align: center
+}
+
+#Länk {
+	text-align: center
+	
+}
+
+div.gallery-itemMonster {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-itemMonster:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-itemMonster img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-itemMonster div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+p {
+	font-family: Times New Roman;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center
+ 
+}
+
+div.gallery-itemlol {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-itemlol:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-itemlol img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-itemlol div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.Någonting {
+	text-align: center;
+}
