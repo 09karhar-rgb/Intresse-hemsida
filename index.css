@@ -203,3 +203,31 @@ div.gallery-itemlol div.desc {
 .Någonting {
 	text-align: center;
 }
+
+@media (max-width: 700px) {
+
+  .innehall {
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  div.bilder {
+    justify-content: center;
+  }
+
+  ul.topnav {
+    flex-direction: column;
+  }
+
+  ul.topnav li a {
+    text-align: center;
+  }
+
+  div.bilder-grejer,
+  div.gallery-itemBok,
+  div.gallery-itemMonster,
+  div.gallery-itemlol {
+    width: 100%;
+  }
+}
